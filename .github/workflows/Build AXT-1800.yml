@@ -11,8 +11,6 @@
 name: Build AXT-1800
 
 on:
-  schedule:
-    - cron: '0 16 * * 1'
   repository_dispatch:
   workflow_dispatch:
     inputs:
